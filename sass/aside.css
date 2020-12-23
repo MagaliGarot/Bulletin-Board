@@ -1,0 +1,55 @@
+/*---------- LINK ------------*/
+
+aside .poststitle{
+  color:#02933d;
+}
+
+aside a{
+  color: white;
+  text-decoration: none;
+  }
+
+aside a:hover{
+  color:white;
+  text-decoration: none;
+  }
+
+aside .poststitle:hover{
+color: #0056b3;
+text-decoration: none;
+}
+
+  /*---------- TITLE ------------*/
+
+  aside h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  aside .h4{
+    color:#02933d;
+    font-size: 1rem;
+    font-weight: 600;
+    
+  }
+    /*----- Margin for a title Last Post ----*/
+  aside .titlelastPost{
+    margin-top: 60px;
+  }
+
+   /*---------- CARD------------*/
+
+  aside .headergreen{
+    background-color:white;
+    color: #02933d;
+  }
+
+  aside .headergreentwo{
+    background-color: #f9c7c7;
+    color: white;
+  }
+
+  aside .newmemberPic{
+    width: 50px;
+  }

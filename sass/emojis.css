@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*GLOBAL*/
+
+.emoji-selector{
+    height: 0.8rem;
+}
+
+.emojis-menu{
+    right: 3rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.emoji-picker {
+    background-color: #303841;
+    width: 400px;
+    border-radius: 5px;
+    height: 400px;
+    display: flex;
+}
+
+/*SELECTORS*/
+
+.emoji-selectables {
+    background-color: #212427;
+    width: 45px;
+    height: 100%;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picker-emoji-sel {
+    margin-bottom: 7px;
+    cursor: pointer;
+    filter: grayscale();
+}
+
+.picker-emoji-sel.active {
+    filter: none;
+}
+
+/*PICKERS*/
+
+.picker-emoji-content {
+    width: 100%;
+    display: none;
+}
+
+.picker-emoji-content.active {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.emoji {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.emoji:hover {
+    transform: scale(1.1);
+    background-color: #3f4953;
+    border-radius: 5px;
+}

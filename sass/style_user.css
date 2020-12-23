@@ -1,0 +1,36 @@
+
+.h2, .h4 {
+  color:#02933d;
+}
+
+.user-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 4fr;
+    grid-template-rows: 4rem 1fr;
+    gap: 0px 15px;
+    grid-template-areas:
+      "picGravatar name username"
+      "picGravatar signature2 signatureTxt";
+    padding: 25px;
+    margin: 25px; 
+    border: 1px solid #ced4da;
+
+  }
+  
+  .name { grid-area: name; 
+        font-weight: bold;}
+  
+  .signature2 { grid-area: signature2;  
+    font-weight: bold;}
+  
+  .username { grid-area: username; }
+  
+  .signatureTxt { grid-area: signatureTxt; }
+  
+  .picGravatar { grid-area: picGravatar; }
+
+  .ModifGravatar {
+    margin-top: 25px;
+    text-align: center;
+    }
+

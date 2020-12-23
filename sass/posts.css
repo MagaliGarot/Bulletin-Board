@@ -1,0 +1,34 @@
+.settingIcon{
+	height: 1rem;
+}
+
+.noPost{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 66%;
+}
+
+.noPost a{
+	color: white;
+	text-decoration: none;
+	}
+  
+.noPost a:hover{
+	color:white;
+	text-decoration: none;
+	}
+
+.noPost .btn{
+	margin-bottom: 20px;
+}
+
+.noPost .Become{
+	margin-bottom: 50px;
+}
+
+.bigimg {
+	max-width: 100%;
+	height: auto;
+}
